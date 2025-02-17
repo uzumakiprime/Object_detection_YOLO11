@@ -16,5 +16,13 @@
  Though it is a simple usage of a model, it is a very exciting project. It can inspire to tweak Yolo11n model to make it a little bit accurate which will be useful to run in systems with low cpu and gpu power. 
  P.S. I will soon start working on making it efficient and accurate.
 
+
+ ## Installation
+ To install YOLO11, ensure you have Python 3.8 or later and run:
+ ```python
+ pip install ultralytics
+
+
+
  ## Yolo Github
  For further research one can go to this link: https://github.com/ultralytics/ultralytics
