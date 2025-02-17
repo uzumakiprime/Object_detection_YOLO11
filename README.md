@@ -21,7 +21,20 @@
  To install YOLO11, ensure you have Python 3.8 or later and run:
  ```python
  pip install ultralytics
+ ```
+ ##Quick Train
+ ```python
+ from ultralytics import YOLO
 
+# Load a pretrained YOLO11 model
+model = YOLO('yolo11n.pt')
+
+# Perform inference on an image
+results = model('path/to/your/image.jpg')
+
+# Display the results
+results.show()
+```
 
 
  ## Yolo Github
