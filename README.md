@@ -22,7 +22,7 @@
  ```python
  pip install ultralytics
  ```
- ##Quick Train
+ ## Quick Train
  ```python
  from ultralytics import YOLO
 
@@ -35,7 +35,26 @@ results = model('path/to/your/image.jpg')
 # Display the results
 results.show()
 ```
+ For command-line interface (CLI) usage:
+ ```python
+ yolo detect model=yolo11n.pt source='path/to/your/image.jpg'
+ ```
+
+ ## Training
+ To train YOLO11 we can use pretrained model such as coco.yaml or we can use our own custom dataset:
+ 1. Prepare your dataset following the YOLO Format.
+ 2. Create a data configuration file, e.g., data.yaml.
+ 3. Run the command:
+ ```python
+ yolo train model=yolo11n.pt data=data.yaml epochs=100 imgsz=640
+ ```
 
 
- ## Yolo Github
+ ## Acknowledgements
  For further research one can go to this link: https://github.com/ultralytics/ultralytics
+
+
+
+
+
+ 
