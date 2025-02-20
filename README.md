@@ -14,7 +14,7 @@
  for prediction, you can put your images inside the "images" folder. Moreover it can also detect using webcam. To use it you have to give collab access to your webcam and just run the code. The webcam will capture an image as "captured_image.jpg", which then can be fed to the model
  for predction.
  Though it is a simple usage of a model, it is a very exciting project. It can inspire to tweak Yolo11n model to make it a little bit accurate which will be useful to run in systems with low cpu and gpu power. 
- P.S. I will soon start working on making it efficient and accurate.
+ P.S. I will soon start working on making it efficient and accurate..
 
 
  ## Installation
