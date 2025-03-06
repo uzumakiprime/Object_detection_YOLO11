@@ -51,7 +51,7 @@ results.show()
 
 
  ## Acknowledgements
- For further research one can go to this link: https://github.com/ultralytics/ultralytics
+ For further research one can go to this link: https://github.com/ultralytics/ultralytics.
 
 
 
